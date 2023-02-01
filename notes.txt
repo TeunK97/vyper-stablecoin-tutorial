@@ -1,0 +1,6 @@
+Vyper does not have modifiers. Hardcode requirements with assert directly in the functions. 
+Vyper has interesting math capabilities and is able to operate with decimals. Check TestMath for examples. Order matters.
+Structs get filled as a dictionary: Loan({key1: value1, key2:value2})
+When you call a viewable variable, you can specify which value from the struct you want; <contract>.see_loan()[0] returns value1.
+HashMaps are similar to mappings in Solidity. Like mappings, HashMaps are infinite meaning you cannot iterate over it. 
+
